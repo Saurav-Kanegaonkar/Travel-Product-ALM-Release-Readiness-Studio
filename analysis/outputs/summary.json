@@ -1,0 +1,12 @@
+{
+  "capability_count": 18,
+  "backlog_item_count": 120,
+  "blocked_gate_count": 49,
+  "watch_gate_count": 21,
+  "avg_story_readiness": 71.5,
+  "avg_package_readiness": 72.5,
+  "avg_rollout_readiness": 69.3,
+  "total_open_event_impact": 11009796,
+  "top_capability": "Release notes stakeholder digest",
+  "top_decision": "Hold release until gates clear"
+}

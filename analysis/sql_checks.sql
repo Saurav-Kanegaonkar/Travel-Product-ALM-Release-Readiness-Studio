@@ -1,17 +1,25 @@
--- Priority queue foundation
-select
-  entity_id,
-  avg(risk_score) as avg_risk_score,
-  avg(quality_score) as avg_quality_score,
-  sum(value_pool) as value_pool
-from daily_metrics
-group by 1
-order by avg_risk_score desc;
+-- Portfolio SQL checks for a travel product ALM and release readiness studio.
 
--- Action readiness
-select
-  action_type,
-  avg(expected_lift_pct) as expected_lift,
-  avg(effort_hours) as effort_hours
-from recommended_actions
-group by 1;
+-- 1. Capabilities with blocked release gates.
+SELECT capability_id, gate_name, blocker
+FROM release_gates
+WHERE gate_status = 'Block'
+ORDER BY due_date;
+
+-- 2. Stories that should not enter sprint commitment.
+SELECT story_id, capability_id, summary, story_readiness_pct, dependency
+FROM backlog_items
+WHERE story_readiness_pct < 65 OR acceptance_decision IN ('Clarify', 'Needs dependency')
+ORDER BY story_readiness_pct ASC;
+
+-- 3. Release packages that need rollback review.
+SELECT package_id, capability_id, deployment_risk_score, rollback_plan
+FROM deployment_packages
+WHERE deployment_risk_score > 55 OR rollback_plan <> 'Documented'
+ORDER BY deployment_risk_score DESC;
+
+-- 4. Adoption cohorts with training risk.
+SELECT adoption_id, capability_id, cohort, training_readiness_pct, primary_adoption_blocker
+FROM adoption_plan
+WHERE training_readiness_pct < 70
+ORDER BY training_readiness_pct ASC;

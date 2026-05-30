@@ -1,0 +1,91 @@
+gate_id,capability_id,gate_name,gate_status,risk_level,owner,due_date,evidence_required,blocker
+REL001-BACKLOG,REL001,Backlog,Block,High,QA Lead,2026-05-28,"User story is refined, estimated, and mapped to acceptance criteria.",Open ServiceNow release item
+REL001-BUILD,REL001,Build,Block,High,Support,2026-06-01,"Feature branch, configuration, and test data are ready for sprint execution.",Dependency owner not confirmed
+REL001-QA,REL001,QA,Block,High,Support,2026-06-05,"Functional, regression, and role-based test evidence is available.",Dependency owner not confirmed
+REL001-PACKAGE,REL001,Package,Block,High,QA Lead,2026-06-08,"Managed solution package, deployment notes, and dependencies are validated.",Rollback note incomplete
+REL001-ROLLOUT,REL001,Rollout,Block,High,DevOps,2026-06-11,"Training, support handoff, release notes, and adoption checks are ready.",Missing acceptance evidence
+REL002-BACKLOG,REL002,Backlog,Pass,Low,QA Lead,2026-05-20,"User story is refined, estimated, and mapped to acceptance criteria.",None
+REL002-BUILD,REL002,Build,Watch,Medium,Product Owner,2026-05-28,"Feature branch, configuration, and test data are ready for sprint execution.",Training sign-off pending
+REL002-QA,REL002,QA,Watch,Medium,QA Lead,2026-06-04,"Functional, regression, and role-based test evidence is available.",Training sign-off pending
+REL002-PACKAGE,REL002,Package,Block,High,Training,2026-06-07,"Managed solution package, deployment notes, and dependencies are validated.",Open ServiceNow release item
+REL002-ROLLOUT,REL002,Rollout,Block,High,DevOps,2026-06-14,"Training, support handoff, release notes, and adoption checks are ready.",Missing acceptance evidence
+REL003-BACKLOG,REL003,Backlog,Watch,Medium,DevOps,2026-05-20,"User story is refined, estimated, and mapped to acceptance criteria.",Training sign-off pending
+REL003-BUILD,REL003,Build,Pass,Low,Support,2026-05-25,"Feature branch, configuration, and test data are ready for sprint execution.",None
+REL003-QA,REL003,QA,Watch,Medium,DevOps,2026-06-05,"Functional, regression, and role-based test evidence is available.",Missing acceptance evidence
+REL003-PACKAGE,REL003,Package,Block,High,DevOps,2026-06-04,"Managed solution package, deployment notes, and dependencies are validated.",Training sign-off pending
+REL003-ROLLOUT,REL003,Rollout,Block,High,Product Owner,2026-06-17,"Training, support handoff, release notes, and adoption checks are ready.",Open ServiceNow release item
+REL004-BACKLOG,REL004,Backlog,Pass,Low,Training,2026-05-28,"User story is refined, estimated, and mapped to acceptance criteria.",None
+REL004-BUILD,REL004,Build,Watch,Medium,Product Owner,2026-06-02,"Feature branch, configuration, and test data are ready for sprint execution.",Open ServiceNow release item
+REL004-QA,REL004,QA,Watch,Medium,DevOps,2026-06-06,"Functional, regression, and role-based test evidence is available.",Rollback note incomplete
+REL004-PACKAGE,REL004,Package,Watch,Medium,Product Owner,2026-06-04,"Managed solution package, deployment notes, and dependencies are validated.",Open ServiceNow release item
+REL004-ROLLOUT,REL004,Rollout,Block,High,Product Owner,2026-06-08,"Training, support handoff, release notes, and adoption checks are ready.",Training sign-off pending
+REL005-BACKLOG,REL005,Backlog,Block,High,QA Lead,2026-05-19,"User story is refined, estimated, and mapped to acceptance criteria.",Dependency owner not confirmed
+REL005-BUILD,REL005,Build,Block,High,DevOps,2026-05-28,"Feature branch, configuration, and test data are ready for sprint execution.",Rollback note incomplete
+REL005-QA,REL005,QA,Block,High,Training,2026-06-03,"Functional, regression, and role-based test evidence is available.",Missing acceptance evidence
+REL005-PACKAGE,REL005,Package,Block,High,Product Owner,2026-06-10,"Managed solution package, deployment notes, and dependencies are validated.",Open ServiceNow release item
+REL005-ROLLOUT,REL005,Rollout,Block,High,Support,2026-06-08,"Training, support handoff, release notes, and adoption checks are ready.",Dependency owner not confirmed
+REL006-BACKLOG,REL006,Backlog,Pass,Low,QA Lead,2026-05-25,"User story is refined, estimated, and mapped to acceptance criteria.",None
+REL006-BUILD,REL006,Build,Pass,Low,DevOps,2026-05-26,"Feature branch, configuration, and test data are ready for sprint execution.",None
+REL006-QA,REL006,QA,Pass,Low,QA Lead,2026-05-28,"Functional, regression, and role-based test evidence is available.",None
+REL006-PACKAGE,REL006,Package,Block,High,QA Lead,2026-06-09,"Managed solution package, deployment notes, and dependencies are validated.",Missing acceptance evidence
+REL006-ROLLOUT,REL006,Rollout,Block,High,Product Owner,2026-06-10,"Training, support handoff, release notes, and adoption checks are ready.",Missing acceptance evidence
+REL007-BACKLOG,REL007,Backlog,Block,High,Support,2026-05-23,"User story is refined, estimated, and mapped to acceptance criteria.",Dependency owner not confirmed
+REL007-BUILD,REL007,Build,Block,High,Training,2026-06-02,"Feature branch, configuration, and test data are ready for sprint execution.",Rollback note incomplete
+REL007-QA,REL007,QA,Block,High,Training,2026-05-28,"Functional, regression, and role-based test evidence is available.",Rollback note incomplete
+REL007-PACKAGE,REL007,Package,Block,High,Support,2026-06-03,"Managed solution package, deployment notes, and dependencies are validated.",Training sign-off pending
+REL007-ROLLOUT,REL007,Rollout,Block,High,QA Lead,2026-06-16,"Training, support handoff, release notes, and adoption checks are ready.",Dependency owner not confirmed
+REL008-BACKLOG,REL008,Backlog,Pass,Low,Training,2026-05-18,"User story is refined, estimated, and mapped to acceptance criteria.",None
+REL008-BUILD,REL008,Build,Pass,Low,DevOps,2026-05-31,"Feature branch, configuration, and test data are ready for sprint execution.",None
+REL008-QA,REL008,QA,Pass,Low,QA Lead,2026-06-03,"Functional, regression, and role-based test evidence is available.",None
+REL008-PACKAGE,REL008,Package,Pass,Low,Support,2026-06-06,"Managed solution package, deployment notes, and dependencies are validated.",None
+REL008-ROLLOUT,REL008,Rollout,Pass,Low,DevOps,2026-06-15,"Training, support handoff, release notes, and adoption checks are ready.",None
+REL009-BACKLOG,REL009,Backlog,Block,High,Support,2026-05-22,"User story is refined, estimated, and mapped to acceptance criteria.",Dependency owner not confirmed
+REL009-BUILD,REL009,Build,Watch,Medium,QA Lead,2026-05-28,"Feature branch, configuration, and test data are ready for sprint execution.",Rollback note incomplete
+REL009-QA,REL009,QA,Watch,Medium,Training,2026-05-28,"Functional, regression, and role-based test evidence is available.",Rollback note incomplete
+REL009-PACKAGE,REL009,Package,Block,High,Support,2026-06-12,"Managed solution package, deployment notes, and dependencies are validated.",Training sign-off pending
+REL009-ROLLOUT,REL009,Rollout,Block,High,QA Lead,2026-06-08,"Training, support handoff, release notes, and adoption checks are ready.",Dependency owner not confirmed
+REL010-BACKLOG,REL010,Backlog,Pass,Low,Product Owner,2026-05-24,"User story is refined, estimated, and mapped to acceptance criteria.",None
+REL010-BUILD,REL010,Build,Pass,Low,QA Lead,2026-05-26,"Feature branch, configuration, and test data are ready for sprint execution.",None
+REL010-QA,REL010,QA,Watch,Medium,DevOps,2026-06-07,"Functional, regression, and role-based test evidence is available.",Open ServiceNow release item
+REL010-PACKAGE,REL010,Package,Pass,Low,DevOps,2026-06-07,"Managed solution package, deployment notes, and dependencies are validated.",None
+REL010-ROLLOUT,REL010,Rollout,Pass,Low,Training,2026-06-07,"Training, support handoff, release notes, and adoption checks are ready.",None
+REL011-BACKLOG,REL011,Backlog,Block,High,QA Lead,2026-05-26,"User story is refined, estimated, and mapped to acceptance criteria.",Rollback note incomplete
+REL011-BUILD,REL011,Build,Block,High,DevOps,2026-05-23,"Feature branch, configuration, and test data are ready for sprint execution.",Missing acceptance evidence
+REL011-QA,REL011,QA,Block,High,QA Lead,2026-06-04,"Functional, regression, and role-based test evidence is available.",Rollback note incomplete
+REL011-PACKAGE,REL011,Package,Block,High,DevOps,2026-06-09,"Managed solution package, deployment notes, and dependencies are validated.",Training sign-off pending
+REL011-ROLLOUT,REL011,Rollout,Block,High,Training,2026-06-14,"Training, support handoff, release notes, and adoption checks are ready.",Dependency owner not confirmed
+REL012-BACKLOG,REL012,Backlog,Block,High,Support,2026-05-22,"User story is refined, estimated, and mapped to acceptance criteria.",Open ServiceNow release item
+REL012-BUILD,REL012,Build,Block,High,Product Owner,2026-06-01,"Feature branch, configuration, and test data are ready for sprint execution.",Dependency owner not confirmed
+REL012-QA,REL012,QA,Block,High,Product Owner,2026-05-28,"Functional, regression, and role-based test evidence is available.",Missing acceptance evidence
+REL012-PACKAGE,REL012,Package,Block,High,Product Owner,2026-06-06,"Managed solution package, deployment notes, and dependencies are validated.",Rollback note incomplete
+REL012-ROLLOUT,REL012,Rollout,Block,High,Training,2026-06-16,"Training, support handoff, release notes, and adoption checks are ready.",Training sign-off pending
+REL013-BACKLOG,REL013,Backlog,Watch,Medium,QA Lead,2026-05-28,"User story is refined, estimated, and mapped to acceptance criteria.",Rollback note incomplete
+REL013-BUILD,REL013,Build,Watch,Medium,Training,2026-05-28,"Feature branch, configuration, and test data are ready for sprint execution.",Dependency owner not confirmed
+REL013-QA,REL013,QA,Watch,Medium,DevOps,2026-05-28,"Functional, regression, and role-based test evidence is available.",Missing acceptance evidence
+REL013-PACKAGE,REL013,Package,Watch,Medium,DevOps,2026-06-04,"Managed solution package, deployment notes, and dependencies are validated.",Missing acceptance evidence
+REL013-ROLLOUT,REL013,Rollout,Block,High,Product Owner,2026-06-17,"Training, support handoff, release notes, and adoption checks are ready.",Dependency owner not confirmed
+REL014-BACKLOG,REL014,Backlog,Pass,Low,Product Owner,2026-05-25,"User story is refined, estimated, and mapped to acceptance criteria.",None
+REL014-BUILD,REL014,Build,Watch,Medium,Training,2026-06-01,"Feature branch, configuration, and test data are ready for sprint execution.",Dependency owner not confirmed
+REL014-QA,REL014,QA,Watch,Medium,DevOps,2026-06-01,"Functional, regression, and role-based test evidence is available.",Open ServiceNow release item
+REL014-PACKAGE,REL014,Package,Watch,Medium,QA Lead,2026-06-05,"Managed solution package, deployment notes, and dependencies are validated.",Missing acceptance evidence
+REL014-ROLLOUT,REL014,Rollout,Watch,Medium,Training,2026-06-17,"Training, support handoff, release notes, and adoption checks are ready.",Missing acceptance evidence
+REL015-BACKLOG,REL015,Backlog,Pass,Low,Training,2026-05-25,"User story is refined, estimated, and mapped to acceptance criteria.",None
+REL015-BUILD,REL015,Build,Pass,Low,Training,2026-05-25,"Feature branch, configuration, and test data are ready for sprint execution.",None
+REL015-QA,REL015,QA,Pass,Low,Product Owner,2026-06-07,"Functional, regression, and role-based test evidence is available.",None
+REL015-PACKAGE,REL015,Package,Pass,Low,Product Owner,2026-06-06,"Managed solution package, deployment notes, and dependencies are validated.",None
+REL015-ROLLOUT,REL015,Rollout,Watch,Medium,DevOps,2026-06-07,"Training, support handoff, release notes, and adoption checks are ready.",Dependency owner not confirmed
+REL016-BACKLOG,REL016,Backlog,Block,High,QA Lead,2026-05-21,"User story is refined, estimated, and mapped to acceptance criteria.",Rollback note incomplete
+REL016-BUILD,REL016,Build,Block,High,Support,2026-05-29,"Feature branch, configuration, and test data are ready for sprint execution.",Missing acceptance evidence
+REL016-QA,REL016,QA,Block,High,Training,2026-05-31,"Functional, regression, and role-based test evidence is available.",Open ServiceNow release item
+REL016-PACKAGE,REL016,Package,Block,High,DevOps,2026-06-03,"Managed solution package, deployment notes, and dependencies are validated.",Rollback note incomplete
+REL016-ROLLOUT,REL016,Rollout,Block,High,DevOps,2026-06-14,"Training, support handoff, release notes, and adoption checks are ready.",Open ServiceNow release item
+REL017-BACKLOG,REL017,Backlog,Watch,Medium,DevOps,2026-05-26,"User story is refined, estimated, and mapped to acceptance criteria.",Rollback note incomplete
+REL017-BUILD,REL017,Build,Block,High,QA Lead,2026-05-28,"Feature branch, configuration, and test data are ready for sprint execution.",Open ServiceNow release item
+REL017-QA,REL017,QA,Block,High,Support,2026-06-03,"Functional, regression, and role-based test evidence is available.",Dependency owner not confirmed
+REL017-PACKAGE,REL017,Package,Block,High,Training,2026-06-07,"Managed solution package, deployment notes, and dependencies are validated.",Rollback note incomplete
+REL017-ROLLOUT,REL017,Rollout,Block,High,Support,2026-06-13,"Training, support handoff, release notes, and adoption checks are ready.",Training sign-off pending
+REL018-BACKLOG,REL018,Backlog,Watch,Medium,Training,2026-05-19,"User story is refined, estimated, and mapped to acceptance criteria.",Rollback note incomplete
+REL018-BUILD,REL018,Build,Block,High,DevOps,2026-06-02,"Feature branch, configuration, and test data are ready for sprint execution.",Rollback note incomplete
+REL018-QA,REL018,QA,Block,High,Training,2026-06-05,"Functional, regression, and role-based test evidence is available.",Training sign-off pending
+REL018-PACKAGE,REL018,Package,Block,High,DevOps,2026-06-10,"Managed solution package, deployment notes, and dependencies are validated.",Missing acceptance evidence
+REL018-ROLLOUT,REL018,Rollout,Block,High,Support,2026-06-12,"Training, support handoff, release notes, and adoption checks are ready.",Dependency owner not confirmed

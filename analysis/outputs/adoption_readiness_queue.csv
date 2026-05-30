@@ -1,0 +1,31 @@
+adoption_id,capability_id,cohort,training_readiness_pct,expected_adoption_pct,support_handoff_status,release_note_status,primary_adoption_blocker
+ADOPT-REL010-PRODUCTSPONSORS,REL010,Product sponsors,10.1,73.2,Ready,Needs PO review,Role-based training gap
+ADOPT-REL007-PRODUCTSPONSORS,REL007,Product sponsors,18.1,69.6,Watch,Needs PO review,Sponsor decision pending
+ADOPT-REL010-CONTACTCENTER,REL010,Contact center,31.0,79.2,Ready,Draft,Support script missing
+ADOPT-REL009-PRODUCTSPONSORS,REL009,Product sponsors,31.9,82.1,Watch,Published,Support script missing
+ADOPT-REL011-TRAVELADVISORS,REL011,Travel advisors,33.4,41.0,Blocked,Needs PO review,Role-based training gap
+ADOPT-REL002-SUPPORT,REL002,Support,40.6,38.7,Ready,Draft,Support script missing
+ADOPT-REL009-CONTACTCENTER,REL009,Contact center,41.5,68.6,Ready,Published,Role-based training gap
+ADOPT-REL018-TRAVELADVISORS,REL018,Travel advisors,42.3,80.9,Ready,Published,None
+ADOPT-REL009-TRAININGLEADS,REL009,Training leads,42.4,54.0,Blocked,Draft,Support script missing
+ADOPT-REL007-CONTACTCENTER,REL007,Contact center,44.1,58.5,Ready,Published,None
+ADOPT-REL002-TRAININGLEADS,REL002,Training leads,45.7,31.2,Blocked,Published,Sponsor decision pending
+ADOPT-REL014-PRODUCTSPONSORS,REL014,Product sponsors,46.2,69.2,Ready,Needs PO review,Role-based training gap
+ADOPT-REL001-TRAININGLEADS,REL001,Training leads,47.8,24.2,Blocked,Draft,Sponsor decision pending
+ADOPT-REL001-CONTACTCENTER,REL001,Contact center,47.9,61.4,Watch,Needs PO review,Support script missing
+ADOPT-REL010-TRAVELADVISORS,REL010,Travel advisors,49.5,88.2,Watch,Published,Sponsor decision pending
+ADOPT-REL016-OPERATIONS,REL016,Operations,49.7,65.7,Blocked,Needs PO review,Sponsor decision pending
+ADOPT-REL014-TRAININGLEADS,REL014,Training leads,50.6,53.5,Watch,Needs PO review,Support script missing
+ADOPT-REL011-CONTACTCENTER,REL011,Contact center,51.2,47.6,Ready,Needs PO review,Role-based training gap
+ADOPT-REL014-TRAVELADVISORS,REL014,Travel advisors,54.0,61.0,Ready,Needs PO review,Role-based training gap
+ADOPT-REL003-PRODUCTSPONSORS,REL003,Product sponsors,54.1,49.4,Ready,Needs PO review,Support script missing
+ADOPT-REL018-TRAININGLEADS,REL018,Training leads,54.5,79.3,Watch,Published,None
+ADOPT-REL004-CONTACTCENTER,REL004,Contact center,58.6,38.9,Ready,Published,Support script missing
+ADOPT-REL007-OPERATIONS,REL007,Operations,64.9,57.0,Ready,Needs PO review,Role-based training gap
+ADOPT-REL008-SUPPORT,REL008,Support,65.1,67.2,Ready,Published,Role-based training gap
+ADOPT-REL011-OPERATIONS,REL011,Operations,65.8,51.7,Blocked,Published,Support script missing
+ADOPT-REL013-TRAININGLEADS,REL013,Training leads,66.9,49.9,Watch,Draft,Sponsor decision pending
+ADOPT-REL002-CONTACTCENTER,REL002,Contact center,67.1,35.4,Ready,Draft,Sponsor decision pending
+ADOPT-REL016-TRAVELADVISORS,REL016,Travel advisors,70.8,77.8,Watch,Published,Support script missing
+ADOPT-REL013-PRODUCTSPONSORS,REL013,Product sponsors,71.6,29.9,Ready,Draft,Sponsor decision pending
+ADOPT-REL005-SUPPORT,REL005,Support,71.7,28.2,Ready,Draft,None

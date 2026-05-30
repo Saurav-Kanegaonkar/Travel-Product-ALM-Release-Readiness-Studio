@@ -1,37 +1,19 @@
-entity_id,entity_name,segment,owner
-REL001,Release capability 1,Core,Product
-REL002,Release capability 2,Core,Customer
-REL003,Release capability 3,Watch,Analytics
-REL004,Release capability 4,Core,Product
-REL005,Release capability 5,Strategic,Product
-REL006,Release capability 6,Strategic,Customer
-REL007,Release capability 7,Core,Operations
-REL008,Release capability 8,Watch,Customer
-REL009,Release capability 9,Strategic,Operations
-REL010,Release capability 10,Growth,Customer
-REL011,Release capability 11,Strategic,Product
-REL012,Release capability 12,Growth,Operations
-REL013,Release capability 13,Strategic,Analytics
-REL014,Release capability 14,Growth,Analytics
-REL015,Release capability 15,Strategic,Operations
-REL016,Release capability 16,Growth,Product
-REL017,Release capability 17,Strategic,Revenue
-REL018,Release capability 18,Strategic,Revenue
-REL019,Release capability 19,Strategic,Operations
-REL020,Release capability 20,Watch,Customer
-REL021,Release capability 21,Watch,Product
-REL022,Release capability 22,Strategic,Customer
-REL023,Release capability 23,Growth,Operations
-REL024,Release capability 24,Watch,Analytics
-REL025,Release capability 25,Core,Operations
-REL026,Release capability 26,Strategic,Product
-REL027,Release capability 27,Growth,Revenue
-REL028,Release capability 28,Core,Analytics
-REL029,Release capability 29,Growth,Product
-REL030,Release capability 30,Core,Analytics
-REL031,Release capability 31,Growth,Customer
-REL032,Release capability 32,Strategic,Customer
-REL033,Release capability 33,Core,Customer
-REL034,Release capability 34,Growth,Customer
-REL035,Release capability 35,Core,Revenue
-REL036,Release capability 36,Strategic,Revenue
+capability_id,capability_name,product_area,primary_user,business_problem,desired_outcome,product_goal,strategic_theme,product_owner_group,target_release,value_score,user_need_score,process_complexity_score,dependency_risk_score,qa_open_defects,story_readiness_pct,solution_package_readiness_pct,rollout_readiness_pct,rollback_confidence_pct,adoption_risk_score,azure_devops_feature_count,servicenow_open_items,current_status
+REL001,Traveler profile merge rules,MS Dynamics,Contact center agent,Duplicate traveler records cause itinerary preference conflicts.,Clean preference history before quote or booking edits.,Reduce duplicate profile touches,User data quality,CRM Product,2026.Q3,76.6,71.9,56.0,62.0,5,49.5,75.3,63.2,62.3,46.1,9,7,Discovery
+REL002,Advisor quote handoff,Booking workflow,Travel advisor,Quote follow-ups move across email and CRM tasks without a clear owner.,Create a single handoff state and follow-up SLA.,Improve quote conversion follow-up,Workflow automation,Commercial Product,2026.Q4,63.3,66.9,52.3,28.1,3,75.8,88.4,45.8,75.6,59.9,8,6,In sprint
+REL003,Guided tour rooming list changes,Operations workflow,Tour operations specialist,Late rooming updates create manual rework before departure.,Expose editable change reason and cut-off validation.,Lower pre-departure operations rework,Release reliability,Tour Ops Product,2026.Q2,85.8,81.0,47.5,62.2,5,76.5,62.0,70.3,72.1,40.6,7,8,In sprint
+REL004,River cruise cabin inventory exception,Inventory platform,Reservations agent,Cabin inventory exceptions require escalation before a traveler can book.,Route exceptions with evidence and approval status.,Protect revenue on exception inventory,Operational control,Inventory Product,2026.Q3,64.2,65.2,70.4,52.1,5,77.9,70.8,76.3,61.8,69.2,6,6,Refinement
+REL005,Managed solution release packaging,ALM,DevOps engineer,Solution layers are packaged manually and rollback evidence is inconsistent.,Standardize solution package gates with rollback notes.,Increase deployment confidence,ALM governance,Platform Product,2026.Q4,70.5,57.6,55.2,41.0,3,58.1,70.6,88.0,61.2,84.7,7,2,In sprint
+REL006,ServiceNow release incident triage,ServiceNow,Support lead,Release incidents lack product capability linkage.,Connect incident severity to release capability and acceptance decision.,Shorten release incident triage,Release reliability,Support Product,2026.Q2,87.5,56.7,58.6,53.1,4,82.9,79.3,100,76.5,33.0,6,2,QA
+REL007,Training playbook for itinerary amendments,Adoption,Training coordinator,Agents receive release notes without role-based workflow examples.,Publish role-based training and readiness checks.,Improve rollout adoption,Adoption readiness,Enablement Product,2026.Q3,81.4,79.1,57.3,23.1,5,56.1,56.9,59.4,75.3,43.8,3,4,Discovery
+REL008,Passenger document checklist,Traveler self-service,Traveler,Travelers miss required documents when products span multiple countries.,Show product-specific document checklist and reminder state.,Reduce avoidable service contacts,Customer readiness,Digital Product,2026.Q4,81.4,79.8,47.7,23.6,2,85.4,58.1,70.7,27.6,29.9,7,3,Release prep
+REL009,Supplier schedule change alerts,Supplier integration,Operations coordinator,Schedule changes arrive in several formats and are hard to prioritize.,Normalize supplier alerts into a ranked exception queue.,Reduce schedule-change response time,Partner operations,Integration Product,2026.Q2,78.1,53.5,49.9,62.1,5,73.0,65.5,39.7,94.4,38.6,7,4,In sprint
+REL010,Final payment reminder automation,Payments,Traveler services,Final payment reminder work is manually reconciled across systems.,Trigger reminder states from balance and due date rules.,Lower avoidable payment escalations,Workflow automation,Payments Product,2026.Q3,84.5,62.0,63.5,66.4,9,100,100,49.1,50.0,31.9,10,6,In sprint
+REL011,Group booking special request intake,Group travel,Group coordinator,Special requests move across spreadsheets and CRM notes.,Capture special requests with acceptance criteria and owner routing.,Improve group booking readiness,User-centric intake,Groups Product,2026.Q4,78.5,82.9,51.4,44.7,4,44.6,89.5,64.9,83.6,62.8,10,3,Release prep
+REL012,Release notes stakeholder digest,Communications,Business sponsor,Stakeholders see release status in scattered updates.,"Generate a digest with scope, trade-offs, gates, and rollout risks.",Improve sponsor alignment,Stakeholder transparency,Portfolio Product,2026.Q2,85.3,65.0,63.3,72.2,5,62.0,50.2,100,55.3,28.4,6,4,Refinement
+REL013,Loyalty preference migration,MS Dynamics,Member services,Preference migration rules need business acceptance before deployment.,Map migration exceptions to user stories and sign-off evidence.,De-risk CRM migration,Data migration readiness,CRM Product,2026.Q3,79.9,75.0,35.4,39.1,10,73.1,75.6,70.4,80.9,47.2,6,4,QA
+REL014,Traveler feedback defect loop,Voice of customer,Product owner,Post-trip feedback does not consistently create backlog items.,Classify feedback themes and attach them to backlog refinement.,Close feedback-to-backlog loop,User-centric design,Experience Product,2026.Q4,79.2,80.2,79.5,37.7,0,76.5,73.7,57.1,80.8,54.9,5,6,Discovery
+REL015,Booking amendment rollback path,ALM,Release manager,Amendment workflow rollback criteria are not documented per release.,"Define rollback triggers, data checkpoints, and owner approval.",Improve rollback readiness,ALM governance,Platform Product,2026.Q2,64.7,43.4,72.9,59.8,2,97.3,70.1,79.7,49.1,50.0,8,6,Discovery
+REL016,Destination availability rules,Product catalog,Product operations analyst,Destination availability changes require manual catalog checks.,Add rule evidence and approval state before catalog publishing.,Reduce catalog publishing risk,Process mapping,Catalog Product,2026.Q3,59.4,82.3,52.5,46.0,11,71.9,100,60.0,72.0,35.2,6,4,QA
+REL017,Pre-departure service case routing,ServiceNow,Service desk agent,Service cases near departure need faster routing and priority rules.,"Prioritize cases by departure window, traveler impact, and product line.",Protect pre-departure experience,Service operations,Support Product,2026.Q4,82.9,69.9,75.9,48.3,10,60.3,64.6,95.1,62.4,12.8,6,1,Refinement
+REL018,Agile intake scoring model,Backlog governance,Business sponsor,Enhancement requests arrive without consistent value or readiness signals.,"Score requests by value, dependency, rollout complexity, and evidence.",Improve backlog prioritization,Backlog governance,Portfolio Product,2026.Q2,70.4,100,38.2,36.1,5,66.9,53.7,57.3,72.0,35.6,9,4,Refinement

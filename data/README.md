@@ -1,8 +1,7 @@
-# Data Sources
+# Synthetic Data Notes
 
-Synthetic source-style data for travel product ownership, ALM release readiness, rollout adoption, and Agile backlog governance.
+The data in this folder is synthetic. It is modeled on common Agile product ownership and ALM records that a travel platform team would use: Azure DevOps work items, MS Dynamics configuration releases, ServiceNow change and incident records, managed solution packages, training plans, and stakeholder enhancement requests.
 
-- `entities.csv`: 36 release capability records.
-- `daily_metrics.csv`: 5,040 release capability-day metric rows.
-- `source_events.csv`: 760 operational events, QA checks, experiments, and stakeholder asks.
-- `recommended_actions.csv`: 220 candidate actions with effort and expected lift.
+The generator uses a fixed random seed so the project is reproducible. Capability records receive business value, user need, process complexity, dependency risk, QA defects, story readiness, package readiness, rollout readiness, rollback confidence, and adoption risk. Backlog items are assigned personas, priorities, acceptance criteria counts, dependencies, sprints, QA states, and Product Owner decisions. Release gates and adoption rows are then derived from those readiness signals.
+
+These records do not represent any real company performance or private system extract.

@@ -1,0 +1,19 @@
+package_id,capability_id,solution_type,environment,solution_package_readiness_pct,rollback_confidence_pct,deployment_risk_score,release_window,rollback_plan
+PKG-REL001,REL001,Managed solution,Production pilot,75.3,62.3,41.7,Week 23,Needs data checkpoint
+PKG-REL002,REL002,Workflow package,UAT,88.4,75.6,22.0,Week 25,Documented
+PKG-REL003,REL003,Managed solution,Production pilot,62.0,72.1,43.8,Week 22,Documented
+PKG-REL004,REL004,Unmanaged configuration,Production pilot,70.8,61.8,41.4,Week 23,Needs data checkpoint
+PKG-REL005,REL005,Unmanaged configuration,Pre-prod,70.6,61.2,39.0,Week 22,Needs owner approval
+PKG-REL006,REL006,Unmanaged configuration,Production pilot,79.3,76.5,32.0,Week 25,Documented
+PKG-REL007,REL007,Managed solution,Production pilot,56.9,75.3,35.1,Week 24,Documented
+PKG-REL008,REL008,Managed solution,UAT,58.1,27.6,53.7,Week 25,Needs data checkpoint
+PKG-REL009,REL009,Managed solution,Production pilot,65.5,94.4,33.3,Week 22,Documented
+PKG-REL010,REL010,Workflow package,UAT,100.0,50.0,36.6,Week 22,Needs owner approval
+PKG-REL011,REL011,Managed solution,Pre-prod,89.5,83.6,22.5,Week 24,Needs data checkpoint
+PKG-REL012,REL012,Managed solution,UAT,50.2,55.3,58.3,Week 22,Documented
+PKG-REL013,REL013,Managed solution,Pre-prod,75.6,80.9,28.4,Week 22,Needs data checkpoint
+PKG-REL014,REL014,Managed solution,Production pilot,73.7,80.8,28.9,Week 22,Documented
+PKG-REL015,REL015,Unmanaged configuration,Pre-prod,70.1,49.1,48.8,Week 22,Documented
+PKG-REL016,REL016,Unmanaged configuration,Production pilot,100.0,72.0,22.7,Week 25,Documented
+PKG-REL017,REL017,Unmanaged configuration,Pre-prod,64.6,62.4,43.0,Week 25,Needs owner approval
+PKG-REL018,REL018,Managed solution,Pre-prod,53.7,72.0,41.1,Week 25,Documented
